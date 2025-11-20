@@ -12,8 +12,8 @@ email=emanuele.gigante01@gmail.com
 
 about=This tool functions as a "cookie cutter" for your vector layers. It speeds up digitizing by allowing you to subtract the geometry of a selected feature from all other features it intersects within the same layer. How to use: 1. Select the vector layer you wish to edit. 2. Select EXACTLY ONE feature on the map to act as the "knife". 3. Click the FastCutter button. 4. The plugin will remove the overlapping parts from all underlying features. Note: The operation starts an edit session automatically.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/gigghizz/qgis-fastcutter/issues
+repository=https://github.com/gigghizz/qgis-fastcutter
 # End of mandatory metadata
 
 # Recommended items:
