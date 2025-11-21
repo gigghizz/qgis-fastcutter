@@ -2,11 +2,24 @@
 name=FastCutter
 qgisMinimumVersion=3.28
 description=Performs an in-place difference operation on the active layer, using selected features to clip and remove overlapping parts from underlying geometries.
-version=0.1
+version=0.2
 author=Emanuele Gigante
 email=emanuele.gigante01@gmail.com
 
-about=FastCutter is an editing tool designed to speed up digitizing workflows. It functions as a "cookie cutter" for your vector layers, allowing you to subtract the geometry of selected features from all other intersecting features within the same layer.\n\nIdeally suited for cleaning up overlaps or carving shapes out of existing polygons without creating temporary layers or running complex geoprocessing tools.\n\nHow to use:\n1. Select the vector layer you wish to edit.\n2. Select one or more features on the map to act as the "knife" (cutter).\n3. Click the FastCutter button in the toolbar.\n4. The plugin will calculate the difference and remove the overlapping parts from all underlying features.\n\nNotes:\n- The operation automatically starts an edit session.\n- Full Undo support: simply press Ctrl+Z to revert changes.\n- Works on vector layers only.
+about=FastCutter is an editing tool designed to speed up digitizing workflows. It functions as a "cookie cutter" for your vector layers, allowing you to subtract the geometry of selected features from all other intersecting features within the same layer.
+    
+    Ideally suited for cleaning up overlaps or carving shapes out of existing polygons without creating temporary layers or running complex geoprocessing tools.
+    
+    How to use:
+    1. Select the vector layer you wish to edit.
+    2. Select one or more features on the map to act as a cutter.
+    3. Click the FastCutter button in the toolbar.
+    4. The plugin will calculate the difference and remove the overlapping parts from all underlying features.
+    
+    Notes:
+    - The operation automatically starts an edit session.
+    - Full Undo support: simply press Ctrl+Z to revert changes.
+    - Works on vector layers only.
 
 tracker=https://github.com/gigghizz/qgis-fastcutter/issues
 repository=https://github.com/gigghizz/qgis-fastcutter
