@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/fastcutter" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
